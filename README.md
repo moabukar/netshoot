@@ -12,6 +12,10 @@ docker run netshoot
 # container net namespace
 docker run -it --net container:<container_name> moabukar/netshoot
 
+
+# normal
+
+docker run -it --name netshoot-container moabukar/netshoot /bin/sh
 ```
 
 ## netshoot with k8s
